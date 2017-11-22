@@ -1,0 +1,39 @@
+@media only screen and (min-width: 760px) {
+ @keyframes logoStick {
+  0% {
+   transform: translateY(-100%);
+ }
+ 100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+@keyframes logoStick-main {
+  0% {
+   transform: translateY(-400px);
+ }
+ 100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+@keyframes footer {
+  0% {
+   transform: translateY(100%);
+ }
+ 100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+@keyframes footer-main {
+  0% {
+   transform: translateY(100%);
+ }
+ 100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+
+}
