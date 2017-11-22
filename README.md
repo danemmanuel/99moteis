@@ -1,6 +1,6 @@
-# PHP Site Starter #
+# 99 Motéis #
 
-Todas as ferramentas necessárias para criação de um site estático em PHP
+Landing page criadas com as tecnologias
 
 * GULP Task Runner
 * HTML5 Boilerplate
