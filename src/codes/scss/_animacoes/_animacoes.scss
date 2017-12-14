@@ -1,37 +1,77 @@
 @media only screen and (min-width: 760px) {
- @keyframes logoStick {
+@-webkit-keyframes prog {
   0% {
-   transform: translateY(-100%);
+   width:0;
  }
  100% {
-  transform: translateY(0);
-  opacity: 1;
+ width: 100%;
 }
 }
-@keyframes logoStick-main {
+@keyframes prog {
   0% {
-   transform: translateY(-400px);
+   width:0;
  }
  100% {
-  transform: translateY(0);
+ width: 100%;
+}
+}
+@-webkit-keyframes cont {
+  0% {
+   height:0;
+ }
+ 100% {
+ height: 100%;
+}
+}
+@keyframes cont {
+  0% {
+   height:0;
+ }
+ 100% {
+ height: 100%;
+}
+}
+@-webkit-keyframes footer {
+  0% {
+   -webkit-transform: translateY(100%);
+           transform: translateY(100%);
+ }
+ 100% {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   opacity: 1;
 }
 }
 @keyframes footer {
   0% {
-   transform: translateY(100%);
+   -webkit-transform: translateY(100%);
+           transform: translateY(100%);
  }
  100% {
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+}
+@-webkit-keyframes footer-main {
+  0% {
+   -webkit-transform: translateY(100%);
+           transform: translateY(100%);
+ }
+ 100% {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   opacity: 1;
 }
 }
 @keyframes footer-main {
   0% {
-   transform: translateY(100%);
+   -webkit-transform: translateY(100%);
+           transform: translateY(100%);
  }
  100% {
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   opacity: 1;
 }
 }

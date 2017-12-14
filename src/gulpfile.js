@@ -19,10 +19,10 @@ var stripCssComments = require('gulp-strip-css-comments');
 
 
 var css = [
-'./codes/scss/**/*.scss'
+'./codes/scss/**/**/*.scss'
 ];
 var js = [
-'./codes/js/main.js'
+'./codes/js/*.js'
 ];
 
 const autoprefixer = require('gulp-autoprefixer');

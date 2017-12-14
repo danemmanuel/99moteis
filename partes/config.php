@@ -5,14 +5,14 @@ $senha_mail = 'senhaemail';
 $smtp_server_mail = 'smtp@site.com.br';
 $destinatario = 'dest@email.com';
 
-$cliente = '99 Motéis';
+$cliente = 'Responsive Test';
 
 $server = $_SERVER['SERVER_NAME']; 
 $endereco = $_SERVER ['REQUEST_URI'];
 $url = "http://". $server . $endereco;
 
 if($server == 'localhost') {
-	$baseURL = 'http://localhost/99moteis/';
+	$baseURL = 'http://localhost/responsive/';
 } else {
 	//$baseURL = 'http://site.com.br';
 }
